@@ -16,12 +16,8 @@ class Toggle extends React.Component {
   render() {
     return (
       <div style={{background: this.state.color}}>
-        <h1>
-          Change my color
-        </h1>
-        <button onClick={this.changeColor}>
-  				Change color
-				</button>
+        <h1>Change my color</h1>
+        <button onClick={this.changeColor}>Change color</button>
       </div>
     );
   }
